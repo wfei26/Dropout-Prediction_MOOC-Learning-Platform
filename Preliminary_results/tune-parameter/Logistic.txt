@@ -1,0 +1,4243 @@
+Shutting down thread pool...
+Starting thread pool with 8 slots...
+
+weka.classifiers.meta.MultiSearch
+=================================
+Options: -E ACC -search "weka.core.setupgenerator.MathParameter -property classifier.maxIts -min -1.0 -max 20.0 -step 1.0 -base 10.0 -expression I" -search "weka.core.setupgenerator.MathParameter -property classifier.ridge -min -10.0 -max 10.0 -step 1.0 -base 10.0 -expression pow(BASE,I)" -sample-size 100.0 -log-file /home/syan/Documents/Logistic.txt -initial-folds 10 -subsequent-folds 10 -num-slots 8 -S 1 -W weka.classifiers.functions.Logistic -- -R 1.0E-6 -M -1
+
+Step 1:
+
+
+=== Initial space - Start ===
+Determining best values with 10-fold CV in space:
+2-dimensional space:
+ - 1. dimension: classifier.maxIts, min: -1.0, max: 20.0, step: 1.0
+ - 2. dimension: classifier.ridge, min: -10.0, max: 10.0, step: 1.0
+
+Performance (0, -10): 79.29237065508946 (ACC): cached=false
+Performance (1, -10): 83.98501230539502 (ACC): cached=false
+Performance (2, -10): 86.93830710947654 (ACC): cached=false
+Performance (3, -10): 87.3876614218953 (ACC): cached=false
+Performance (4, -10): 87.3876614218953 (ACC): cached=false
+Performance (5, -10): 87.43328816746399 (ACC): cached=false
+Performance (6, -10): 87.51624588667976 (ACC): cached=false
+Performance (7, -10): 87.59643834858834 (ACC): cached=false
+Performance (8, -10): 87.58122943339878 (ACC): cached=false
+Performance (9, -10): 87.59090783397396 (ACC): cached=false
+Performance (10, -10): 87.5715510328236 (ACC): cached=false
+Performance (11, -10): 87.62685617896746 (ACC): cached=false
+Performance (12, -10): 87.58122943339878 (ACC): cached=false
+Performance (13, -10): 87.62132566435307 (ACC): cached=false
+Performance (14, -10): 87.61441252108509 (ACC): cached=false
+Performance (15, -10): 87.60058623454913 (ACC): cached=false
+Performance (16, -10): 87.58952520532036 (ACC): cached=false
+Performance (0, -9): 79.29237065508946 (ACC): cached=false
+Performance (17, -10): 87.58537731935957 (ACC): cached=false
+Performance (1, -9): 83.98501230539502 (ACC): cached=false
+Performance (18, -10): 87.55495948898044 (ACC): cached=false
+Performance (2, -9): 86.93830710947654 (ACC): cached=false
+Performance (19, -10): 87.54113320244448 (ACC): cached=false
+Performance (20, -10): 87.5328374305229 (ACC): cached=false
+Performance (3, -9): 87.3876614218953 (ACC): cached=false
+Performance (4, -9): 87.3876614218953 (ACC): cached=false
+Performance (5, -9): 87.43328816746399 (ACC): cached=false
+Performance (6, -9): 87.51624588667976 (ACC): cached=false
+Performance (-1, -10): 87.63929983684982 (ACC): cached=false
+Performance (7, -9): 87.59643834858834 (ACC): cached=false
+Performance (8, -9): 87.58122943339878 (ACC): cached=false
+Performance (9, -9): 87.59090783397396 (ACC): cached=false
+Performance (10, -9): 87.5715510328236 (ACC): cached=false
+Performance (11, -9): 87.62685617896746 (ACC): cached=false
+Performance (12, -9): 87.58122943339878 (ACC): cached=false
+Performance (13, -9): 87.62132566435307 (ACC): cached=false
+Performance (14, -9): 87.61441252108509 (ACC): cached=false
+Performance (15, -9): 87.60058623454913 (ACC): cached=false
+Performance (16, -9): 87.58952520532036 (ACC): cached=false
+Performance (0, -8): 79.29237065508946 (ACC): cached=false
+Performance (17, -9): 87.58537731935957 (ACC): cached=false
+Performance (1, -8): 83.98501230539502 (ACC): cached=false
+Performance (-1, -9): 87.63929983684982 (ACC): cached=false
+Performance (2, -8): 86.93830710947654 (ACC): cached=false
+Performance (18, -9): 87.55495948898044 (ACC): cached=false
+Performance (19, -9): 87.54113320244448 (ACC): cached=false
+Performance (3, -8): 87.3876614218953 (ACC): cached=false
+Performance (20, -9): 87.5328374305229 (ACC): cached=false
+Performance (4, -8): 87.3876614218953 (ACC): cached=false
+Performance (5, -8): 87.43328816746399 (ACC): cached=false
+Performance (6, -8): 87.51624588667976 (ACC): cached=false
+Performance (7, -8): 87.59643834858834 (ACC): cached=false
+Performance (8, -8): 87.58122943339878 (ACC): cached=false
+Performance (9, -8): 87.59090783397396 (ACC): cached=false
+Performance (10, -8): 87.5715510328236 (ACC): cached=false
+Performance (11, -8): 87.62685617896746 (ACC): cached=false
+Performance (12, -8): 87.58122943339878 (ACC): cached=false
+Performance (13, -8): 87.62132566435307 (ACC): cached=false
+Performance (14, -8): 87.61441252108509 (ACC): cached=false
+Performance (15, -8): 87.60058623454913 (ACC): cached=false
+Performance (16, -8): 87.58952520532036 (ACC): cached=false
+Performance (0, -7): 79.29237065508946 (ACC): cached=false
+Performance (17, -8): 87.58537731935957 (ACC): cached=false
+Performance (1, -7): 83.98501230539502 (ACC): cached=false
+Performance (18, -8): 87.55495948898044 (ACC): cached=false
+Performance (-1, -8): 87.63929983684982 (ACC): cached=false
+Performance (2, -7): 86.93830710947654 (ACC): cached=false
+Performance (19, -8): 87.54113320244448 (ACC): cached=false
+Performance (3, -7): 87.3876614218953 (ACC): cached=false
+Performance (20, -8): 87.5328374305229 (ACC): cached=false
+Performance (4, -7): 87.3876614218953 (ACC): cached=false
+Performance (5, -7): 87.43328816746399 (ACC): cached=false
+Performance (6, -7): 87.51624588667976 (ACC): cached=false
+Performance (7, -7): 87.59643834858834 (ACC): cached=false
+Performance (8, -7): 87.58122943339878 (ACC): cached=false
+Performance (9, -7): 87.59090783397396 (ACC): cached=false
+Performance (10, -7): 87.5715510328236 (ACC): cached=false
+Performance (11, -7): 87.62685617896746 (ACC): cached=false
+Performance (12, -7): 87.58122943339878 (ACC): cached=false
+Performance (13, -7): 87.62132566435307 (ACC): cached=false
+Performance (14, -7): 87.61441252108509 (ACC): cached=false
+Performance (15, -7): 87.60058623454913 (ACC): cached=false
+Performance (0, -6): 79.29237065508946 (ACC): cached=false
+Performance (16, -7): 87.58952520532036 (ACC): cached=false
+Performance (1, -6): 83.98501230539502 (ACC): cached=false
+Performance (17, -7): 87.58537731935957 (ACC): cached=false
+Performance (-1, -7): 87.63929983684982 (ACC): cached=false
+Performance (2, -6): 86.93830710947654 (ACC): cached=false
+Performance (18, -7): 87.55495948898044 (ACC): cached=false
+Performance (19, -7): 87.54113320244448 (ACC): cached=false
+Performance (3, -6): 87.3876614218953 (ACC): cached=false
+Performance (20, -7): 87.5328374305229 (ACC): cached=false
+Performance (4, -6): 87.3876614218953 (ACC): cached=false
+Performance (5, -6): 87.43328816746399 (ACC): cached=false
+Performance (6, -6): 87.51624588667976 (ACC): cached=false
+Performance (7, -6): 87.59643834858834 (ACC): cached=false
+Performance (8, -6): 87.58122943339878 (ACC): cached=false
+Performance (9, -6): 87.59090783397396 (ACC): cached=false
+Performance (10, -6): 87.5715510328236 (ACC): cached=false
+Performance (11, -6): 87.62685617896746 (ACC): cached=false
+Performance (12, -6): 87.58122943339878 (ACC): cached=false
+Performance (13, -6): 87.62132566435307 (ACC): cached=false
+Performance (14, -6): 87.61441252108509 (ACC): cached=false
+Performance (15, -6): 87.60058623454913 (ACC): cached=false
+Performance (0, -5): 79.29237065508946 (ACC): cached=false
+Performance (16, -6): 87.58952520532036 (ACC): cached=false
+Performance (17, -6): 87.58537731935957 (ACC): cached=false
+Performance (-1, -6): 87.63929983684982 (ACC): cached=false
+Performance (1, -5): 83.98501230539502 (ACC): cached=false
+Performance (18, -6): 87.55495948898044 (ACC): cached=false
+Performance (2, -5): 86.93830710947654 (ACC): cached=false
+Performance (19, -6): 87.54113320244448 (ACC): cached=false
+Performance (3, -5): 87.3876614218953 (ACC): cached=false
+Performance (20, -6): 87.5328374305229 (ACC): cached=false
+Performance (4, -5): 87.3876614218953 (ACC): cached=false
+Performance (5, -5): 87.43328816746399 (ACC): cached=false
+Performance (6, -5): 87.51624588667976 (ACC): cached=false
+Performance (7, -5): 87.59643834858834 (ACC): cached=false
+Performance (8, -5): 87.58122943339878 (ACC): cached=false
+Performance (9, -5): 87.59090783397396 (ACC): cached=false
+Performance (10, -5): 87.5715510328236 (ACC): cached=false
+Performance (11, -5): 87.62685617896746 (ACC): cached=false
+Performance (12, -5): 87.58122943339878 (ACC): cached=false
+Performance (13, -5): 87.62132566435307 (ACC): cached=false
+Performance (14, -5): 87.61441252108509 (ACC): cached=false
+Performance (15, -5): 87.60058623454913 (ACC): cached=false
+Performance (0, -4): 79.29237065508946 (ACC): cached=false
+Performance (16, -5): 87.58952520532036 (ACC): cached=false
+Performance (17, -5): 87.58537731935957 (ACC): cached=false
+Performance (-1, -5): 87.6434477228106 (ACC): cached=false
+Performance (1, -4): 83.98501230539502 (ACC): cached=false
+Performance (18, -5): 87.55495948898044 (ACC): cached=false
+Performance (2, -4): 86.93830710947654 (ACC): cached=false
+Performance (19, -5): 87.54113320244448 (ACC): cached=false
+Performance (3, -4): 87.3876614218953 (ACC): cached=false
+Performance (20, -5): 87.5328374305229 (ACC): cached=false
+Performance (4, -4): 87.3876614218953 (ACC): cached=false
+Performance (5, -4): 87.43328816746399 (ACC): cached=false
+Performance (6, -4): 87.51624588667976 (ACC): cached=false
+Performance (7, -4): 87.59643834858834 (ACC): cached=false
+Performance (8, -4): 87.58122943339878 (ACC): cached=false
+Performance (9, -4): 87.59090783397396 (ACC): cached=false
+Performance (10, -4): 87.5715510328236 (ACC): cached=false
+Performance (11, -4): 87.62685617896746 (ACC): cached=false
+Performance (12, -4): 87.58122943339878 (ACC): cached=false
+Performance (13, -4): 87.62132566435307 (ACC): cached=false
+Performance (14, -4): 87.61441252108509 (ACC): cached=false
+Performance (15, -4): 87.60058623454913 (ACC): cached=false
+Performance (0, -3): 79.29237065508946 (ACC): cached=false
+Performance (16, -4): 87.58952520532036 (ACC): cached=false
+Performance (17, -4): 87.58537731935957 (ACC): cached=false
+Performance (-1, -4): 87.6462129801178 (ACC): cached=false
+Performance (1, -3): 83.98501230539502 (ACC): cached=false
+Performance (18, -4): 87.55495948898044 (ACC): cached=false
+Performance (2, -3): 86.93830710947654 (ACC): cached=false
+Performance (19, -4): 87.54113320244448 (ACC): cached=false
+Performance (3, -3): 87.3876614218953 (ACC): cached=false
+Performance (4, -3): 87.3876614218953 (ACC): cached=false
+Performance (20, -4): 87.5328374305229 (ACC): cached=false
+Performance (5, -3): 87.43328816746399 (ACC): cached=false
+Performance (6, -3): 87.51624588667976 (ACC): cached=false
+Performance (7, -3): 87.59643834858834 (ACC): cached=false
+Performance (8, -3): 87.58122943339878 (ACC): cached=false
+Performance (9, -3): 87.58952520532036 (ACC): cached=false
+Performance (10, -3): 87.5715510328236 (ACC): cached=false
+Performance (11, -3): 87.62685617896746 (ACC): cached=false
+Performance (12, -3): 87.58122943339878 (ACC): cached=false
+Performance (13, -3): 87.62132566435307 (ACC): cached=false
+Performance (14, -3): 87.61441252108509 (ACC): cached=false
+Performance (15, -3): 87.60058623454913 (ACC): cached=false
+Performance (0, -2): 79.29237065508946 (ACC): cached=false
+Performance (16, -3): 87.58952520532036 (ACC): cached=false
+Performance (-1, -3): 87.6462129801178 (ACC): cached=false
+Performance (1, -2): 83.98501230539502 (ACC): cached=false
+Performance (17, -3): 87.58537731935957 (ACC): cached=false
+Performance (2, -2): 86.93830710947654 (ACC): cached=false
+Performance (18, -3): 87.55495948898044 (ACC): cached=false
+Performance (19, -3): 87.54113320244448 (ACC): cached=false
+Performance (3, -2): 87.3876614218953 (ACC): cached=false
+Performance (4, -2): 87.3876614218953 (ACC): cached=false
+Performance (20, -3): 87.5328374305229 (ACC): cached=false
+Performance (5, -2): 87.43328816746399 (ACC): cached=false
+Performance (6, -2): 87.51624588667976 (ACC): cached=false
+Performance (7, -2): 87.59643834858834 (ACC): cached=false
+Performance (8, -2): 87.58122943339878 (ACC): cached=false
+Performance (9, -2): 87.59090783397396 (ACC): cached=false
+Performance (10, -2): 87.57016840417 (ACC): cached=false
+Performance (11, -2): 87.62685617896746 (ACC): cached=false
+Performance (12, -2): 87.58122943339878 (ACC): cached=false
+Performance (13, -2): 87.62132566435307 (ACC): cached=false
+Performance (14, -2): 87.61441252108509 (ACC): cached=false
+Performance (15, -2): 87.59920360589553 (ACC): cached=false
+Performance (16, -2): 87.58952520532036 (ACC): cached=false
+Performance (0, -1): 79.29237065508946 (ACC): cached=false
+Performance (17, -2): 87.58537731935957 (ACC): cached=false
+Performance (-1, -2): 87.64483035146421 (ACC): cached=false
+Performance (1, -1): 83.98362967674142 (ACC): cached=false
+Performance (2, -1): 86.93830710947654 (ACC): cached=false
+Performance (18, -2): 87.55495948898044 (ACC): cached=false
+Performance (19, -2): 87.54113320244448 (ACC): cached=false
+Performance (3, -1): 87.3876614218953 (ACC): cached=false
+Performance (20, -2): 87.5328374305229 (ACC): cached=false
+Performance (4, -1): 87.38627879324171 (ACC): cached=false
+Performance (5, -1): 87.43328816746399 (ACC): cached=false
+Performance (6, -1): 87.51901114398694 (ACC): cached=false
+Performance (7, -1): 87.59643834858834 (ACC): cached=false
+Performance (8, -1): 87.58122943339878 (ACC): cached=false
+Performance (9, -1): 87.59229046262755 (ACC): cached=false
+Performance (10, -1): 87.56878577551642 (ACC): cached=false
+Performance (11, -1): 87.62547355031386 (ACC): cached=false
+Performance (12, -1): 87.57984680474519 (ACC): cached=false
+Performance (13, -1): 87.61994303569948 (ACC): cached=false
+Performance (14, -1): 87.61302989243148 (ACC): cached=false
+Performance (15, -1): 87.59920360589553 (ACC): cached=false
+Performance (0, 0): 79.29237065508946 (ACC): cached=false
+Performance (16, -1): 87.59367309128115 (ACC): cached=false
+Performance (-1, -1): 87.63653457954263 (ACC): cached=false
+Performance (1, 0): 83.991925448663 (ACC): cached=false
+Performance (17, -1): 87.58675994801317 (ACC): cached=false
+Performance (18, -1): 87.55634211763405 (ACC): cached=false
+Performance (2, 0): 86.93830710947654 (ACC): cached=false
+Performance (3, 0): 87.3918093078561 (ACC): cached=false
+Performance (19, -1): 87.54251583109809 (ACC): cached=false
+Performance (4, 0): 87.3876614218953 (ACC): cached=false
+Performance (5, 0): 87.43328816746399 (ACC): cached=false
+Performance (20, -1): 87.5356026878301 (ACC): cached=false
+Performance (6, 0): 87.52039377264055 (ACC): cached=false
+Performance (7, 0): 87.59643834858834 (ACC): cached=false
+Performance (8, 0): 87.57984680474519 (ACC): cached=false
+Performance (9, 0): 87.59090783397396 (ACC): cached=false
+Performance (10, 0): 87.57846417609159 (ACC): cached=false
+Performance (11, 0): 87.62132566435307 (ACC): cached=false
+Performance (12, 0): 87.57708154743798 (ACC): cached=false
+Performance (13, 0): 87.6074993778171 (ACC): cached=false
+Performance (14, 0): 87.62685617896746 (ACC): cached=false
+Performance (15, 0): 87.60473412050992 (ACC): cached=false
+Performance (16, 0): 87.58399469070596 (ACC): cached=false
+Performance (0, 1): 79.29237065508946 (ACC): cached=false
+Performance (-1, 0): 87.63238669358184 (ACC): cached=false
+Performance (1, 1): 84.04170008019246 (ACC): cached=false
+Performance (17, 0): 87.59229046262755 (ACC): cached=false
+Performance (2, 1): 86.94245499543733 (ACC): cached=false
+Performance (18, 0): 87.56187263224844 (ACC): cached=false
+Performance (19, 0): 87.5356026878301 (ACC): cached=false
+Performance (3, 1): 87.40563559439205 (ACC): cached=false
+Performance (4, 1): 87.40978348035284 (ACC): cached=false
+Performance (20, 0): 87.54389845975167 (ACC): cached=false
+Performance (5, 1): 87.43881868207836 (ACC): cached=false
+Performance (6, 1): 87.51624588667976 (ACC): cached=false
+Performance (7, 1): 87.59505571993473 (ACC): cached=false
+Performance (8, 1): 87.57846417609159 (ACC): cached=false
+Performance (9, 1): 87.58537731935957 (ACC): cached=false
+Performance (10, 1): 87.58537731935957 (ACC): cached=false
+Performance (11, 1): 87.63100406492825 (ACC): cached=false
+Performance (12, 1): 87.6116472637779 (ACC): cached=false
+Performance (13, 1): 87.61579514973869 (ACC): cached=false
+Performance (14, 1): 87.60473412050992 (ACC): cached=false
+Performance (15, 1): 87.6061167491635 (ACC): cached=false
+Performance (0, 2): 79.29237065508946 (ACC): cached=false
+Performance (16, 1): 87.59920360589553 (ACC): cached=false
+Performance (17, 1): 87.6102646351243 (ACC): cached=false
+Performance (-1, 1): 87.55772474628765 (ACC): cached=false
+Performance (1, 2): 84.38459198628432 (ACC): cached=false
+Performance (2, 2): 87.02679534330669 (ACC): cached=false
+Performance (18, 1): 87.63238669358184 (ACC): cached=false
+Performance (19, 1): 87.58537731935957 (ACC): cached=false
+Performance (3, 2): 87.3890440505489 (ACC): cached=false
+Performance (4, 2): 87.41531399496724 (ACC): cached=false
+Performance (20, 1): 87.6434477228106 (ACC): cached=false
+Performance (5, 2): 87.45679285457511 (ACC): cached=false
+Performance (6, 2): 87.51209800071896 (ACC): cached=false
+Performance (7, 2): 87.57846417609159 (ACC): cached=false
+Performance (8, 2): 87.57846417609159 (ACC): cached=false
+Performance (9, 2): 87.56463788955563 (ACC): cached=false
+Performance (10, 2): 87.5756989187844 (ACC): cached=false
+Performance (11, 2): 87.5756989187844 (ACC): cached=false
+Performance (12, 2): 87.58952520532036 (ACC): cached=false
+Performance (13, 2): 87.58537731935957 (ACC): cached=false
+Performance (14, 2): 87.60196886320271 (ACC): cached=false
+Performance (15, 2): 87.56187263224844 (ACC): cached=false
+Performance (0, 3): 79.29237065508946 (ACC): cached=false
+Performance (16, 2): 87.5383679451373 (ACC): cached=false
+Performance (-1, 2): 87.53007217321571 (ACC): cached=false
+Performance (17, 2): 87.56740314686282 (ACC): cached=false
+Performance (1, 3): 85.91516190581534 (ACC): cached=false
+Performance (18, 2): 87.59367309128115 (ACC): cached=false
+Performance (2, 3): 87.21483284019578 (ACC): cached=false
+Performance (19, 2): 87.50380222879738 (ACC): cached=false
+Performance (3, 3): 87.39457456516328 (ACC): cached=false
+Performance (4, 3): 87.36277410613057 (ACC): cached=false
+Performance (20, 2): 87.52592428725492 (ACC): cached=false
+Performance (5, 3): 87.4249923955424 (ACC): cached=false
+Performance (6, 3): 87.43881868207836 (ACC): cached=false
+Performance (7, 3): 87.42775765284959 (ACC): cached=false
+Performance (8, 3): 87.43743605342478 (ACC): cached=false
+Performance (9, 3): 87.4291402815032 (ACC): cached=false
+Performance (10, 3): 87.43467079611757 (ACC): cached=false
+Performance (11, 3): 87.4236097668888 (ACC): cached=false
+Performance (12, 3): 87.43881868207836 (ACC): cached=false
+Performance (13, 3): 87.39595719381688 (ACC): cached=false
+Performance (14, 3): 87.37106987805215 (ACC): cached=false
+Performance (15, 3): 87.32959101844426 (ACC): cached=false
+Performance (-1, 3): 87.30885158864032 (ACC): cached=false
+Performance (0, 4): 79.29237065508946 (ACC): cached=false
+Performance (16, 3): 87.3212952465227 (ACC): cached=false
+Performance (1, 4): 86.00918065425988 (ACC): cached=false
+Performance (17, 3): 87.2784337582612 (ACC): cached=false
+Performance (2, 4): 86.90374139313663 (ACC): cached=false
+Performance (18, 3): 87.29364267345076 (ACC): cached=false
+Performance (3, 4): 86.98255122639162 (ACC): cached=false
+Performance (19, 3): 87.28949478748997 (ACC): cached=false
+Performance (4, 4): 86.99776014158117 (ACC): cached=false
+Performance (20, 3): 87.29502530210436 (ACC): cached=false
+Performance (5, 4): 86.99361225562039 (ACC): cached=false
+Performance (6, 4): 87.00052539888837 (ACC): cached=false
+Performance (7, 4): 86.99499488427398 (ACC): cached=false
+Performance (8, 4): 86.98531648369881 (ACC): cached=false
+Performance (9, 4): 86.90097613582944 (ACC): cached=false
+Performance (10, 4): 86.65072034952853 (ACC): cached=false
+Performance (11, 4): 86.54287531454801 (ACC): cached=false
+Performance (12, 4): 86.48618753975057 (ACC): cached=false
+Performance (-1, 4): 86.45162182341066 (ACC): cached=false
+Performance (13, 4): 86.47097862456101 (ACC): cached=false
+Performance (14, 4): 86.4751265105218 (ACC): cached=false
+Performance (15, 4): 86.477891767829 (ACC): cached=false
+Performance (0, 5): 79.29237065508946 (ACC): cached=false
+Performance (16, 4): 86.477891767829 (ACC): cached=false
+Performance (1, 5): 82.44199872798164 (ACC): cached=false
+Performance (2, 5): 82.43508558471366 (ACC): cached=false
+Performance (17, 4): 86.46268285263943 (ACC): cached=false
+Performance (3, 5): 82.22907391532782 (ACC): cached=false
+Performance (18, 4): 86.45162182341066 (ACC): cached=false
+Performance (4, 5): 82.00785333075243 (ACC): cached=false
+Performance (19, 4): 86.4405607941819 (ACC): cached=false
+Performance (20, 4): 86.4391781655283 (ACC): cached=false
+Performance (-1, 5): 81.16444985205874 (ACC): cached=false
+Performance (5, 5): 82.00647070209882 (ACC): cached=false
+Performance (6, 5): 82.00785333075243 (ACC): cached=false
+Performance (7, 5): 82.00094018748445 (ACC): cached=false
+Performance (8, 5): 81.30133008876476 (ACC): cached=false
+Performance (9, 5): 81.07734424688218 (ACC): cached=false
+Performance (10, 5): 81.07596161822858 (ACC): cached=false
+Performance (11, 5): 81.07596161822858 (ACC): cached=false
+Performance (12, 5): 81.07734424688218 (ACC): cached=false
+Performance (13, 5): 81.15200619417637 (ACC): cached=false
+Performance (14, 5): 81.19210242513066 (ACC): cached=false
+Performance (0, 6): 79.29237065508946 (ACC): cached=false
+Performance (15, 5): 81.19210242513066 (ACC): cached=false
+Performance (1, 6): 79.29237065508946 (ACC): cached=false
+Performance (-1, 6): 79.29237065508946 (ACC): cached=false
+Performance (16, 5): 81.19210242513066 (ACC): cached=false
+Performance (2, 6): 79.29237065508946 (ACC): cached=false
+Performance (17, 5): 81.18795453916987 (ACC): cached=false
+Performance (18, 5): 81.16444985205874 (ACC): cached=false
+Performance (3, 6): 79.29237065508946 (ACC): cached=false
+Performance (4, 6): 79.29237065508946 (ACC): cached=false
+Performance (19, 5): 81.16444985205874 (ACC): cached=false
+Performance (5, 6): 79.29237065508946 (ACC): cached=false
+Performance (20, 5): 81.16444985205874 (ACC): cached=false
+Performance (6, 6): 79.29237065508946 (ACC): cached=false
+Performance (7, 6): 79.29237065508946 (ACC): cached=false
+Performance (8, 6): 79.29237065508946 (ACC): cached=false
+Performance (9, 6): 79.29237065508946 (ACC): cached=false
+Performance (10, 6): 79.29237065508946 (ACC): cached=false
+Performance (11, 6): 79.29237065508946 (ACC): cached=false
+Performance (12, 6): 79.29237065508946 (ACC): cached=false
+Performance (13, 6): 79.29237065508946 (ACC): cached=false
+Performance (14, 6): 79.29237065508946 (ACC): cached=false
+Performance (15, 6): 79.29237065508946 (ACC): cached=false
+Performance (16, 6): 79.29237065508946 (ACC): cached=false
+Performance (0, 7): 79.29237065508946 (ACC): cached=false
+Performance (17, 6): 79.29237065508946 (ACC): cached=false
+Performance (1, 7): 79.29237065508946 (ACC): cached=false
+Performance (-1, 7): 79.29237065508946 (ACC): cached=false
+Performance (19, 6): 79.29237065508946 (ACC): cached=false
+Performance (18, 6): 79.29237065508946 (ACC): cached=false
+Performance (20, 6): 79.29237065508946 (ACC): cached=false
+Performance (2, 7): 79.29237065508946 (ACC): cached=false
+Performance (3, 7): 79.29237065508946 (ACC): cached=false
+Performance (4, 7): 79.29237065508946 (ACC): cached=false
+Performance (5, 7): 79.29237065508946 (ACC): cached=false
+Performance (7, 7): 79.29237065508946 (ACC): cached=false
+Performance (6, 7): 79.29237065508946 (ACC): cached=false
+Performance (8, 7): 79.29237065508946 (ACC): cached=false
+Performance (9, 7): 79.29237065508946 (ACC): cached=false
+Performance (10, 7): 79.29237065508946 (ACC): cached=false
+Performance (11, 7): 79.29237065508946 (ACC): cached=false
+Performance (12, 7): 79.29237065508946 (ACC): cached=false
+Performance (13, 7): 79.29237065508946 (ACC): cached=false
+Performance (14, 7): 79.29237065508946 (ACC): cached=false
+Performance (15, 7): 79.29237065508946 (ACC): cached=false
+Performance (16, 7): 79.29237065508946 (ACC): cached=false
+Performance (17, 7): 79.29237065508946 (ACC): cached=false
+Performance (18, 7): 79.29237065508946 (ACC): cached=false
+Performance (0, 8): 79.29237065508946 (ACC): cached=false
+Performance (19, 7): 79.29237065508946 (ACC): cached=false
+Performance (1, 8): 79.29237065508946 (ACC): cached=false
+Performance (-1, 8): 79.29237065508946 (ACC): cached=false
+Performance (2, 8): 79.29237065508946 (ACC): cached=false
+Performance (20, 7): 79.29237065508946 (ACC): cached=false
+Performance (3, 8): 79.29237065508946 (ACC): cached=false
+Performance (5, 8): 79.29237065508946 (ACC): cached=false
+Performance (4, 8): 79.29237065508946 (ACC): cached=false
+Performance (7, 8): 79.29237065508946 (ACC): cached=false
+Performance (6, 8): 79.29237065508946 (ACC): cached=false
+Performance (8, 8): 79.29237065508946 (ACC): cached=false
+Performance (10, 8): 79.29237065508946 (ACC): cached=false
+Performance (9, 8): 79.29237065508946 (ACC): cached=false
+Performance (11, 8): 79.29237065508946 (ACC): cached=false
+Performance (12, 8): 79.29237065508946 (ACC): cached=false
+Performance (13, 8): 79.29237065508946 (ACC): cached=false
+Performance (14, 8): 79.29237065508946 (ACC): cached=false
+Performance (15, 8): 79.29237065508946 (ACC): cached=false
+Performance (16, 8): 79.29237065508946 (ACC): cached=false
+Performance (17, 8): 79.29237065508946 (ACC): cached=false
+Performance (18, 8): 79.29237065508946 (ACC): cached=false
+Performance (0, 9): 79.29237065508946 (ACC): cached=false
+Performance (20, 8): 79.29237065508946 (ACC): cached=false
+Performance (19, 8): 79.29237065508946 (ACC): cached=false
+Performance (-1, 9): 79.29237065508946 (ACC): cached=false
+Performance (1, 9): 79.29237065508946 (ACC): cached=false
+Performance (2, 9): 79.29237065508946 (ACC): cached=false
+Performance (3, 9): 79.29237065508946 (ACC): cached=false
+Performance (4, 9): 79.29237065508946 (ACC): cached=false
+Performance (6, 9): 79.29237065508946 (ACC): cached=false
+Performance (5, 9): 79.29237065508946 (ACC): cached=false
+Performance (7, 9): 79.29237065508946 (ACC): cached=false
+Performance (8, 9): 79.29237065508946 (ACC): cached=false
+Performance (10, 9): 79.29237065508946 (ACC): cached=false
+Performance (9, 9): 79.29237065508946 (ACC): cached=false
+Performance (11, 9): 79.29237065508946 (ACC): cached=false
+Performance (12, 9): 79.29237065508946 (ACC): cached=false
+Performance (13, 9): 79.29237065508946 (ACC): cached=false
+Performance (14, 9): 79.29237065508946 (ACC): cached=false
+Performance (15, 9): 79.29237065508946 (ACC): cached=false
+Performance (16, 9): 79.29237065508946 (ACC): cached=false
+Performance (17, 9): 79.29237065508946 (ACC): cached=false
+Performance (18, 9): 79.29237065508946 (ACC): cached=false
+Performance (0, 10): 79.29237065508946 (ACC): cached=false
+Performance (19, 9): 79.29237065508946 (ACC): cached=false
+Performance (20, 9): 79.29237065508946 (ACC): cached=false
+Performance (1, 10): 79.29237065508946 (ACC): cached=false
+Performance (-1, 10): 79.29237065508946 (ACC): cached=false
+Performance (2, 10): 79.29237065508946 (ACC): cached=false
+Performance (3, 10): 79.29237065508946 (ACC): cached=false
+Performance (4, 10): 79.29237065508946 (ACC): cached=false
+Performance (5, 10): 79.29237065508946 (ACC): cached=false
+Performance (6, 10): 79.29237065508946 (ACC): cached=false
+Performance (7, 10): 79.29237065508946 (ACC): cached=false
+Performance (8, 10): 79.29237065508946 (ACC): cached=false
+Performance (9, 10): 79.29237065508946 (ACC): cached=false
+Performance (10, 10): 79.29237065508946 (ACC): cached=false
+Performance (12, 10): 79.29237065508946 (ACC): cached=false
+Performance (11, 10): 79.29237065508946 (ACC): cached=false
+Performance (13, 10): 79.29237065508946 (ACC): cached=false
+Performance (14, 10): 79.29237065508946 (ACC): cached=false
+Performance (16, 10): 79.29237065508946 (ACC): cached=false
+Performance (15, 10): 79.29237065508946 (ACC): cached=false
+Performance (17, 10): 79.29237065508946 (ACC): cached=false
+Performance (18, 10): 79.29237065508946 (ACC): cached=false
+Performance (20, 10): 79.29237065508946 (ACC): cached=false
+Performance (19, 10): 79.29237065508946 (ACC): cached=false
+
+Correlation coefficient:
+2-dimensional space:
+ - 1. dimension: classifier.maxIts, min: -1.0, max: 20.0, step: 1.0
+ - 2. dimension: classifier.ridge, min: -10.0, max: 10.0, step: 1.0
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+
+
+
+Root mean squared error:
+2-dimensional space:
+ - 1. dimension: classifier.maxIts, min: -1.0, max: 20.0, step: 1.0
+ - 2. dimension: classifier.ridge, min: -10.0, max: 10.0, step: 1.0
+0.3068286974075208
+0.3068281370056641
+0.30682810165433505
+0.30683283653361604
+0.3158365830138791
+0.30684512482991044
+0.3068451209916889
+0.3068450827012815
+0.30684470876500924
+0.3068416941086207
+0.30682899143033376
+0.30686449922511755
+0.3158101564202827
+0.31606234306758196
+0.31655546362605425
+0.3165554636260198
+0.31655546362568104
+0.31655546362228365
+0.3165554635882891
+0.31655546324835654
+0.31655545984905636
+0.3165554258577461
+0.3165550861152413
+0.3169111249771931
+0.31655170600203786
+0.3169567740200289
+0.31695677401998545
+0.3169567740195267
+0.3169567740149629
+0.3169567739693137
+0.3169567735127971
+0.3169567689476739
+0.3169567232981244
+0.3169562669696571
+0.316530013722818
+0.31695172051113035
+0.31628666726085675
+0.31695054822228746
+0.3169505482222394
+0.3169505482217477
+0.3169505482168203
+0.3169505481675482
+0.31695054767483377
+0.3169505427476961
+0.31695049347807314
+0.3169500009574314
+0.31694509340821525
+0.3161271752930319
+0.31603808412879036
+0.3169186670770143
+0.3162635563550716
+0.31698391113611313
+0.31625983899611854
+0.3134896066622044
+0.3170361875373877
+0.31703618753733137
+0.31703618753677665
+0.3170361875312232
+0.3170361874756794
+0.31703618692023583
+0.31703618136583084
+0.31703612582343466
+0.3170355705644895
+0.31703003462242685
+0.31623667694922536
+0.3166431298277464
+0.3166431298277119
+0.3166431298273678
+0.3166431298239322
+0.3166431297895664
+0.31664312944591416
+0.31664312600937583
+0.3166430916441271
+0.31664274800446024
+0.3166393128900557
+0.31660508972912765
+0.31622239125388807
+0.316960240403692
+0.3131118414145302
+0.3166059559302066
+0.31680173962741975
+0.31661069189303515
+0.316610691892993
+0.31661069189256735
+0.31661069188830543
+0.3166106918456967
+0.3166106914195859
+0.3166106871584774
+0.316610218421757
+0.31656332843138657
+0.3169665957728999
+0.31696659577284125
+0.31696659577226755
+0.3169665957665233
+0.31696659570907537
+0.31696659513458675
+0.31696658938973155
+0.31661064454726107
+0.31696653194362007
+0.3169659577279695
+0.3134896542129526
+0.31686286969107325
+0.31687023879872084
+0.3168702387986543
+0.3168702387979879
+0.31687023879132986
+0.3168702387247465
+0.3168702380589081
+0.3168702314005388
+0.31687016481943286
+0.31686949926642854
+0.3161561828255652
+0.3161216228047253
+0.3158813477091174
+0.3135421258099108
+0.316922215856029
+0.31654511184394685
+0.31665310758983595
+0.316545111843913
+0.31665310758979714
+0.31654511184357925
+0.31665310758941495
+0.3165451118402327
+0.3166531075855914
+0.3165451118067792
+0.31665310754735754
+0.3165451114722291
+0.31665310716499173
+0.31654510812672954
+0.3166531033413713
+0.3165450746719216
+0.31665306510667135
+0.31654474014471323
+0.3166526829114371
+0.3165413969591378
+0.3166488763021013
+0.31650817427104666
+0.3165359632849589
+0.31613694533475983
+0.31379222413697433
+0.3138098010023083
+0.3166254162727711
+0.3136086610547969
+0.31351991888653336
+0.31657438976036784
+0.31657438976033236
+0.31657438975998176
+0.3165743897564663
+0.31657438972131424
+0.31657438936978377
+0.3165743858544761
+0.31657435070192935
+0.31657399922595825
+0.3165704894918885
+0.3132771160275044
+0.3137375046707416
+0.31662066983730375
+0.3135262416023939
+0.3070622354510665
+0.3166792530455223
+0.3166876025177235
+0.3166876025176481
+0.31668760251689515
+0.31668760250934963
+0.3166876024338937
+0.31668760167932514
+0.31668759413365904
+0.31668751868006817
+0.31668676445110394
+0.31673374372298474
+0.31677539214074896
+0.3167839919802419
+0.31678399198016416
+0.31678399197938456
+0.31678399197158474
+0.3167839918935911
+0.31678399111366207
+0.3167839833144163
+0.3167839053277903
+0.3167831260451341
+0.31341106654396167
+0.3167852462126128
+0.3167590002881629
+0.31679503071709353
+0.3167950307170042
+0.3167950307161188
+0.3167950307072624
+0.31679503061867975
+0.31679502973286916
+0.3167950208748166
+0.31679493229949296
+0.31679404706896336
+0.30751568668252555
+0.31354075187425146
+0.3173603285298326
+0.3173997575670234
+0.3174041555496482
+0.31740415554960877
+0.3174041555492133
+0.3174041555452541
+0.3174041555056568
+0.3174041551096828
+0.3174041511499721
+0.3174041115530028
+0.31740371559844754
+0.31697942115757816
+0.314264596015712
+0.3135703231753068
+0.315431407361731
+0.3184539187859432
+0.3088888644098796
+0.3087981715227944
+0.3088676614785481
+0.30883969714284687
+0.31884778755991094
+0.318847787559876
+0.3188477875595115
+0.3188477875558774
+0.3188477875195427
+0.3188477871561861
+0.3188477835226226
+0.31884774718708336
+0.3188473838407855
+0.3188437512875172
+0.3188075164889909
+0.3088506454131212
+0.3088843002637541
+0.3088532673110615
+0.3088394425846259
+0.3162113956779316
+0.319425308644943
+0.3213277068653266
+0.3087677685321761
+0.3095737742610217
+0.32172339922534093
+0.31802394639967063
+0.3217684362745515
+0.3198606843222209
+0.32176843627451124
+0.31986068432218095
+0.3217684362741031
+0.319860684321778
+0.3217684362700398
+0.31986068431774867
+0.3217684362294098
+0.31986068427745773
+0.3217684358230878
+0.31986068387454625
+0.3217684317598895
+0.31986067984542266
+0.3217683911279804
+0.3198606395542923
+0.32176798481868607
+0.3198602366542241
+0.3217639227047198
+0.31981604194371577
+0.31985620877630344
+0.308761816826352
+0.3095782658847091
+0.3092881408613117
+0.3091053746634036
+0.3095444502653734
+0.3098247033431024
+0.30977513959780056
+0.30981796163904346
+0.3095898225690149
+0.3128893139613383
+0.32238846963645174
+0.3131865377038826
+0.3131218857422119
+0.3131784409471269
+0.31316716087330343
+0.31316769245973114
+0.31264983119629547
+0.325966325969572
+0.3264557491683267
+0.32645574916828085
+0.3264557491678307
+0.3264557491633247
+0.326455749118254
+0.32645574866755556
+0.3264557441605774
+0.3264556990908692
+0.3264552484041476
+0.3264507425700529
+0.32640578732403874
+0.3147096350947395
+0.31370392418112886
+0.31607531808241446
+0.317032461651199
+0.31734158991772593
+0.3173764256833366
+0.3173702457814753
+0.3173802116129971
+0.31738255604615534
+0.3177976643585818
+0.31812245302762976
+0.3182147807928593
+0.3182497765734762
+0.31825156566060425
+0.3246427393537578
+0.325765473434329
+0.3455098995869147
+0.35082981902895866
+0.351431414015411
+0.35149911526172106
+0.3514991152616598
+0.3514991152610509
+0.3514991152549479
+0.35149911519394106
+0.3514991145838481
+0.3514991084829465
+0.3514990474740061
+0.3514984373923015
+0.3514923373471899
+0.34932447138414147
+0.3490684294125751
+0.3493796762161085
+0.34982396508596025
+0.34983222689030913
+0.3498323495617417
+0.3498500135178978
+0.3536468561783465
+0.35440889080739213
+0.3544100055784966
+0.3544099928737818
+0.35442280770834844
+0.35452897117839927
+0.3545271881646015
+0.35452920925590253
+0.35452921220720746
+0.3546272734277945
+0.35510684395597136
+0.35510711881813284
+0.355109254347863
+0.35510925945477756
+0.4052106894877597
+0.4052106894877597
+0.4052106894877597
+0.4052106894877597
+0.4052106894877597
+0.4052106894877597
+0.4052106894877597
+0.4052106894877597
+0.4052106894877597
+0.4052106894877597
+0.4052106894877597
+0.4052106894877597
+0.4052106894877597
+0.4052106894877597
+0.4052106894877597
+0.4052106894877597
+0.4052106894877597
+0.3969012927963504
+0.39690521549876695
+0.39690108530839374
+0.39690357763566736
+0.3969134014438041
+0.39691340127040264
+0.39691340033895867
+0.3969043987563247
+0.3969018200177708
+0.39690181879553477
+0.3969018207082665
+0.3969050042679378
+0.39690521549876695
+0.39690521549876695
+0.39690521549876695
+0.39690521549876695
+0.39690521549876695
+0.4052106894877597
+0.39690521549876695
+0.4043426408497209
+0.40434267989551104
+0.39690521549876695
+0.39690521549876695
+0.39690521549876695
+0.40434264105650025
+0.40434265749029524
+0.40434267989551104
+0.40434267989551104
+0.40434267989551104
+0.40434267989551104
+0.40434267989551104
+0.40434267989551104
+0.40434267989551104
+0.40434267989551104
+0.40434267989551104
+0.40434267989551104
+0.40434267989551104
+0.40434267989551104
+0.40434267989551104
+0.40434267989551104
+0.40434267989551104
+0.4052106894877597
+0.40434267989551104
+0.4051235752779726
+0.4051235752779726
+0.4051235752779726
+0.40434267989551104
+0.4051235752779726
+0.4051235752779726
+0.4051235752779726
+0.4051235752779726
+0.4051235752779726
+0.4051235752779726
+0.4051235752779726
+0.4051235752779726
+0.4051235752779726
+0.4051235752779726
+0.4051235752779726
+0.4051235752779726
+0.4051235752779726
+0.4051235752779726
+0.4051235752779726
+0.4051235752779726
+0.4052106894877597
+0.4051235752779726
+0.4051235752779726
+0.4052019750060534
+0.4052019750060534
+0.4052019750060534
+0.4052019750060534
+0.4052019750060534
+0.4052019750060534
+0.4052019750060534
+0.4052019750060534
+0.4052019750060534
+0.4052019750060534
+0.4052019750060534
+0.4052019750060534
+0.4052019750060534
+0.4052019750060534
+0.4052019750060534
+0.4052019750060534
+0.4052019750060534
+0.4052019750060534
+0.4052019750060534
+0.4052106894877597
+0.4052019750060534
+0.4052019750060534
+0.4052098180088288
+0.4052098180088288
+0.4052098180088288
+0.4052098180088288
+0.4052098180088288
+0.4052098180088288
+0.4052098180088288
+0.4052098180088288
+0.4052098180088288
+0.4052098180088288
+0.4052098180088288
+0.4052098180088288
+0.4052098180088288
+0.4052098180088288
+0.4052098180088288
+0.4052098180088288
+0.4052098180088288
+0.4052098180088288
+0.4052098180088288
+0.4052098180088288
+0.4052098180088288
+
+
+
+Root relative squared error:
+2-dimensional space:
+ - 1. dimension: classifier.maxIts, min: -1.0, max: 20.0, step: 1.0
+ - 2. dimension: classifier.ridge, min: -10.0, max: 10.0, step: 1.0
+75.72078066237422
+75.7206423634914
+75.72063363930667
+75.72180213742476
+77.94379349003322
+75.72483470705168
+75.72483375983542
+75.72482431032967
+75.72473202839289
+75.72398805582091
+75.72085322285217
+75.72961602099767
+77.9372717979155
+77.99950772945475
+78.12120258382683
+78.12120258381833
+78.12120258373473
+78.1212025828963
+78.12120257450695
+78.12120249061664
+78.12120165171967
+78.12119326316746
+78.12110941974633
+78.2089745405806
+78.12027525784214
+78.22024004862867
+78.22024004861792
+78.22024004850472
+78.22024004737844
+78.2202400361129
+78.22023992345136
+78.22023879684652
+78.22022753121344
+78.22011491610256
+78.1149219244325
+78.21899291743749
+78.05486761977707
+78.21870361390397
+78.2187036138921
+78.21870361377076
+78.21870361255475
+78.21870360039513
+78.2187034788005
+78.21870226285584
+78.21869010384222
+78.21856855703844
+78.2173574465363
+78.01550736301127
+77.99352098245598
+78.21083581917391
+78.04916419033044
+78.22693708717878
+78.04824680116734
+77.36459446775628
+78.23983812918749
+78.23983812917359
+78.23983812903668
+78.23983812766618
+78.2398381139588
+78.23983797688354
+78.23983660613861
+78.2398228990974
+78.239685869409
+78.23831968085419
+78.04253075085226
+78.14283730471807
+78.14283730470957
+78.14283730462465
+78.1428373037768
+78.1428372952958
+78.14283721048753
+78.14283636240074
+78.14282788156603
+78.14274307638303
+78.14189534099656
+78.13344957147075
+78.03900525270824
+78.22109550080526
+77.27136759653239
+78.13366333707502
+78.18197985544245
+78.13483210259662
+78.13483210258622
+78.13483210248117
+78.1348321014294
+78.13483209091419
+78.13483198575635
+78.13483093417786
+78.13471525689378
+78.1231435013634
+78.22266391184988
+78.22266391183543
+78.22266391169383
+78.22266391027624
+78.22266389609894
+78.22266375432365
+78.22266233657842
+78.1348204183604
+78.22264815972846
+78.22250645180577
+77.36460620257706
+78.19706585026918
+78.19888443695477
+78.19888443693834
+78.19888443677391
+78.1988844351308
+78.19888441869901
+78.19888425437995
+78.19888261119296
+78.19886617996158
+78.19870193133202
+78.02266599265403
+78.01413709108839
+77.95484075418483
+77.37755541599108
+78.21171160530362
+78.11864791723586
+78.1452996687051
+78.1186479172275
+78.14529966869553
+78.11864791714514
+78.14529966860121
+78.11864791631926
+78.14529966765762
+78.11864790806344
+78.14529965822206
+78.11864782550143
+78.14529956385985
+78.11864699988165
+78.14529862024692
+78.11863874373027
+78.14528918448895
+78.1185561873671
+78.14519486436261
+78.11773113865489
+78.1442554495262
+78.10953227101565
+78.11639018829996
+78.01791846468785
+77.43927598100868
+77.44361369119007
+78.13846586155657
+77.39397532953537
+77.37207507602139
+78.12587327361972
+78.12587327361096
+78.12587327352445
+78.12587327265688
+78.12587326398187
+78.12587317722935
+78.12587230970347
+78.12586363457527
+78.12577689550835
+78.12491074509308
+77.31215492452296
+77.42577202673196
+78.13729451154275
+77.37363542870324
+75.77841439455462
+78.15175198014818
+78.15381250629366
+78.15381250627505
+78.15381250608924
+78.15381250422712
+78.15381248560571
+78.15381229938936
+78.15381043723066
+78.15379181640134
+78.1536056838575
+78.16519947274304
+78.175477685743
+78.17759999883
+78.17759999881082
+78.17759999861843
+78.17759999669356
+78.17759997744588
+78.17759978497094
+78.17759786023254
+78.17757861428765
+78.17738629886348
+77.34521192917073
+78.17790952481327
+78.17143241916656
+78.18032419568316
+78.18032419566111
+78.18032419544261
+78.18032419325698
+78.1803241713961
+78.18032395279116
+78.1803217667549
+78.18029990767617
+78.18008144588516
+75.89031944622842
+77.37721634900815
+78.31983132799837
+78.3295618307254
+78.33064718773568
+78.33064718772594
+78.33064718762836
+78.33064718665128
+78.33064717687927
+78.33064707915874
+78.33064610196075
+78.33063633001485
+78.33053861429177
+78.22582902693964
+77.55585036835636
+77.38451410837693
+77.84380213672998
+78.589713215244
+76.22919938275969
+76.2068177207162
+76.22396681316528
+76.21706562905865
+78.68691419838332
+78.6869141983747
+78.68691419828475
+78.6869141973879
+78.68691418842104
+78.68691409875002
+78.68691320204033
+78.6869042349671
+78.68681456647926
+78.68591810610381
+78.6769758941962
+76.21976750009965
+76.22807301905708
+76.22041454570046
+76.21700280785784
+78.03629170732513
+78.82943785336442
+79.29892157374418
+76.19931471267445
+76.39822499558542
+79.39657259092601
+78.48360239501463
+79.40768706800644
+78.93688212583125
+79.4076870679965
+78.93688212582138
+79.4076870678958
+78.93688212572194
+79.40768706689303
+78.93688212472756
+79.40768705686614
+78.93688211478435
+79.40768695659187
+78.93688201535177
+79.4076859538547
+78.93688102102371
+79.40767592650099
+78.93687107776914
+79.40757565538158
+78.93677164799627
+79.40657318578448
+78.92586504763877
+78.93577762734846
+76.1978459197777
+76.39933346182384
+76.32773490064962
+76.28263090841803
+76.39098826753037
+76.46015057864395
+76.44791897997499
+76.45848682587685
+76.40218548044172
+77.2164511150661
+79.56070212362702
+77.28980153504641
+77.27384638792222
+77.28780337533202
+77.28501962008664
+77.28515080774814
+77.15735031361747
+80.44366410511945
+80.56444650584373
+80.56444650583241
+80.56444650572132
+80.56444650460932
+80.56444649348653
+80.56444638226083
+80.56444527000534
+80.56443414746849
+80.56432292465693
+80.56321095150035
+80.55211666223789
+77.66567942533165
+77.4174848589736
+78.00270977105164
+78.23891863562886
+78.31520691591034
+78.32380386720368
+78.32227875890284
+78.32473817860235
+78.32531675000213
+78.427759336833
+78.50791237264222
+78.53069749841131
+78.53933393903955
+78.53977545925964
+80.11702252083958
+80.39409667255816
+85.26672877847453
+86.5796061482125
+86.72807088570816
+86.74477855114404
+86.74477855112893
+86.74477855097865
+86.74477854947254
+86.74477853441695
+86.74477838385502
+86.74477687824283
+86.74476182213944
+86.74461126300552
+86.7431058621684
+86.20810863250773
+86.14492126400815
+86.221732367863
+86.33137628431875
+86.33341517533599
+86.3334454488297
+86.3378046517368
+87.27480921725024
+87.4628680836165
+87.46314319262359
+87.46314005728803
+87.46630256876641
+87.49250214168119
+87.49206212026911
+87.49256089568485
+87.49256162402321
+87.51676168170457
+87.63511258917522
+87.635180421088
+87.63570743821404
+87.63570869852497
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+97.94936389710907
+97.95033196199932
+97.94931269215272
+97.94992776163097
+97.95235213206136
+97.95235208926844
+97.95235185940187
+97.95013040205448
+97.94949400755138
+97.94949370592163
+97.9494941779555
+97.95027983335746
+97.95033196199932
+97.95033196199932
+97.95033196199932
+97.95033196199932
+97.95033196199932
+100.0
+97.95033196199932
+99.78577844549557
+99.7857880814186
+97.95033196199932
+97.95033196199932
+97.95033196199932
+99.78577849652565
+99.78578255214299
+99.7857880814186
+99.7857880814186
+99.7857880814186
+99.7857880814186
+99.7857880814186
+99.7857880814186
+99.7857880814186
+99.7857880814186
+99.7857880814186
+99.7857880814186
+99.7857880814186
+99.7857880814186
+99.7857880814186
+99.7857880814186
+99.7857880814186
+100.0
+99.7857880814186
+99.97850150254003
+99.97850150254003
+99.97850150254003
+99.7857880814186
+99.97850150254003
+99.97850150254003
+99.97850150254003
+99.97850150254003
+99.97850150254003
+99.97850150254003
+99.97850150254003
+99.97850150254003
+99.97850150254003
+99.97850150254003
+99.97850150254003
+99.97850150254003
+99.97850150254003
+99.97850150254003
+99.97850150254003
+99.97850150254003
+100.0
+99.97850150254003
+99.97850150254003
+99.99784939491175
+99.99784939491175
+99.99784939491175
+99.99784939491175
+99.99784939491175
+99.99784939491175
+99.99784939491175
+99.99784939491175
+99.99784939491175
+99.99784939491175
+99.99784939491175
+99.99784939491175
+99.99784939491175
+99.99784939491175
+99.99784939491175
+99.99784939491175
+99.99784939491175
+99.99784939491175
+99.99784939491175
+100.0
+99.99784939491175
+99.99784939491175
+99.9997849319
+99.9997849319
+99.9997849319
+99.9997849319
+99.9997849319
+99.9997849319
+99.9997849319
+99.9997849319
+99.9997849319
+99.9997849319
+99.9997849319
+99.9997849319
+99.9997849319
+99.9997849319
+99.9997849319
+99.9997849319
+99.9997849319
+99.9997849319
+99.9997849319
+99.9997849319
+99.9997849319
+
+
+
+Mean absolute error:
+2-dimensional space:
+ - 1. dimension: classifier.maxIts, min: -1.0, max: 20.0, step: 1.0
+ - 2. dimension: classifier.ridge, min: -10.0, max: 10.0, step: 1.0
+0.18894031385575588
+0.18894010438737469
+0.18894224669576137
+0.1889432078106917
+0.15220020309262844
+0.1889501996432442
+0.18895019771439903
+0.18895017846535356
+0.18894998983578037
+0.18894842311951238
+0.1889631431782
+0.1891089078867975
+0.152067753936929
+0.15244560642120467
+0.15132690304960997
+0.15132690304964638
+0.15132690305000224
+0.15132690305358584
+0.15132690308941327
+0.15132690344768415
+0.1513269070303353
+0.15132694284884393
+0.15132730023353438
+0.15189482332561402
+0.15133079078632533
+0.15172760381407557
+0.1517276038141063
+0.1517276038144008
+0.15172760381737876
+0.15172760384715828
+0.1517276041449282
+0.15172760712257138
+0.1517276368930892
+0.15172793400430887
+0.1514108841157426
+0.15173084314958504
+0.15260789786896073
+0.15181825276568925
+0.15181825276571606
+0.1518182527659558
+0.15181825276836614
+0.15181825279245925
+0.15181825303336882
+0.1518182554424269
+0.15181827952726226
+0.1518185197966487
+0.1518208620257217
+0.15236617626029908
+0.1522408558219835
+0.15180892422011455
+0.15262022277288312
+0.1518819357078609
+0.15263184639011163
+0.1558782346630355
+0.15181078473372336
+0.15181078473374698
+0.1518107847339664
+0.15181078473614856
+0.15181078475797424
+0.15181078497621087
+0.15181078715853846
+0.15181080897606347
+0.15181102657314044
+0.15181314215507136
+0.15239288817602045
+0.15090516983970895
+0.15090516983975744
+0.15090516984024002
+0.15090516984508892
+0.15090516989357589
+0.15090517037844953
+0.15090517522717428
+0.150905223714623
+0.15090570860660446
+0.15091055927812222
+0.1509592405686083
+0.1519018453811922
+0.1515311015222656
+0.15617065947474898
+0.1509593151377202
+0.1514761498355954
+0.15095246000945134
+0.1509524600095139
+0.15095246001012644
+0.1509524600162603
+0.15095246007758725
+0.15095246069084967
+0.15095246682352947
+0.15095314182514877
+0.15102455846517546
+0.15152835656313782
+0.15152835656316668
+0.15152835656341745
+0.1515283565659477
+0.15152835659126382
+0.15152835684440596
+0.15152835937575138
+0.15095252815399107
+0.15152838468345756
+0.15152863717903714
+0.15575895392032343
+0.15140856479004905
+0.15140600125156753
+0.15140600125159154
+0.15140600125182901
+0.15140600125419598
+0.15140600127785087
+0.15140600151440375
+0.15140600387988642
+0.15140602752918125
+0.1514062634672909
+0.15228254296559304
+0.15250854104991224
+0.15216505797251484
+0.15588508702209267
+0.15160399387060233
+0.15091948165607919
+0.15133216311976397
+0.15091948165612148
+0.15133216311980538
+0.1509194816565279
+0.15133216312020065
+0.1509194816605986
+0.15133216312414816
+0.15091948170133362
+0.1513321631636529
+0.15091948210867023
+0.15133216355866688
+0.15091948618204007
+0.15133216750877607
+0.1509195269152739
+0.1513322070041262
+0.15091993420427316
+0.15133260138043295
+0.1509240027583393
+0.15133648498095156
+0.1509642551837983
+0.15163868960091673
+0.15183071693882783
+0.1563762800120466
+0.15527943900494884
+0.1514249201004284
+0.15587663601510435
+0.1558584184677583
+0.15155368732878244
+0.15155368732885657
+0.15155368732960622
+0.1515536873371021
+0.1515536874120604
+0.15155368816163722
+0.15155369565743046
+0.15155377061915276
+0.15155452061530142
+0.15156205831554442
+0.15585701448557254
+0.15629169503840104
+0.15126827020662847
+0.1558046235353903
+0.18955557081758914
+0.1512028995064812
+0.15120029585249145
+0.15120029585251618
+0.15120029585275718
+0.1512002958551637
+0.15120029587924966
+0.15120029612005909
+0.15120029852810865
+0.15120032260246088
+0.1512005627278829
+0.15143024060248
+0.15127736325299654
+0.15127432804157692
+0.1512743280416044
+0.1512743280418812
+0.15127432804464686
+0.15127432807232494
+0.1512743283491055
+0.15127433111686825
+0.15127435879113743
+0.1512746351967334
+0.15582310790494786
+0.15132732472724073
+0.15140011014562915
+0.15132591365348422
+0.15132591365350004
+0.15132591365363418
+0.15132591365498138
+0.15132591366847037
+0.15132591380333713
+0.15132591515195776
+0.1513259286307604
+0.15132606267604584
+0.19108625628565337
+0.15919557330720072
+0.15223535902981938
+0.15219955039415636
+0.1521955628306795
+0.1521955628307153
+0.15219556283107413
+0.15219556283466218
+0.15219556287055958
+0.15219556322951994
+0.15219556681912588
+0.1521956027151026
+0.15219596166692625
+0.15305612435763485
+0.15622400761266078
+0.15739539848932227
+0.1567651142133503
+0.15140335927737172
+0.18056581160923532
+0.18063999122889984
+0.1806289696687013
+0.1806208337861612
+0.15081369198326602
+0.15081369198331734
+0.15081369198384412
+0.15081369198913874
+0.15081369204208142
+0.15081369257149932
+0.15081369786568227
+0.15081375080751397
+0.1508142802264263
+0.15081957447620858
+0.15087252282727245
+0.1806197785689116
+0.18054204427208023
+0.18170149690052997
+0.1805793469895529
+0.1581624215125904
+0.1539536291326544
+0.1527443005137635
+0.18088505369929725
+0.18650743636751957
+0.1522360196154716
+0.15789671810583125
+0.15217945077111714
+0.15351874200656604
+0.1521794507711678
+0.15351874200660423
+0.15217945077167325
+0.15351874200699347
+0.15217945077676562
+0.15351874201088597
+0.15217945082768672
+0.15351874204981714
+0.15217945133688207
+0.15351874243913735
+0.1521794564288204
+0.15351874633229434
+0.152179507348213
+0.1535187852639295
+0.15218001654140031
+0.15351917458133887
+0.15218510840056146
+0.1535620110982003
+0.15352306786160236
+0.18136531526224733
+0.1806103818331977
+0.1832653742505682
+0.18879540534916497
+0.19717493111006174
+0.19592968072558858
+0.19573754820130781
+0.19595308792740693
+0.19428076310768463
+0.19678018993706015
+0.16560120489881633
+0.19290797891730907
+0.19295948421491466
+0.19292941033333422
+0.19297868086778622
+0.19302150705857873
+0.1987730482415512
+0.1603227401595536
+0.15972899141542957
+0.15972899141548277
+0.15972899141601538
+0.15972899142135924
+0.1597289914747538
+0.1597289920087189
+0.15972899734839016
+0.1597290507450636
+0.15972958471237644
+0.15973492443814336
+0.1597883268342831
+0.20922142868848562
+0.193820639187917
+0.20618116756576227
+0.21561728049592058
+0.21584130483791583
+0.2158757446084223
+0.2159511282063229
+0.21587207508043224
+0.21587508362532287
+0.21735394687271573
+0.22028193628897952
+0.22028748281342822
+0.220346968450462
+0.2203492760241824
+0.2244112636887345
+0.22218824384630184
+0.20669095914104232
+0.2048719028571985
+0.20469710374249336
+0.2046777927810284
+0.20467779278104578
+0.20467779278121936
+0.20467779278295725
+0.20467779280032608
+0.20467779297401828
+0.20467779471097647
+0.20467781208052443
+0.2046779857770243
+0.20467972284459668
+0.2812928662729688
+0.28088525872444653
+0.27790190529837555
+0.27528011733939595
+0.2752769103895632
+0.27527711370904523
+0.27529184699590253
+0.2792362565000577
+0.2800365901155925
+0.28003778893438963
+0.2800377677239661
+0.28005170005666896
+0.28016407162661766
+0.28016198421591243
+0.2801642376354393
+0.28016424026802794
+0.28025612478591
+0.2807480185574737
+0.2807477343104744
+0.28075005377726076
+0.28075009680957413
+0.328396677245971
+0.328396677245971
+0.328396677245971
+0.328396677245971
+0.328396677245971
+0.328396677245971
+0.328396677245971
+0.328396677245971
+0.328396677245971
+0.328396677245971
+0.328396677245971
+0.328396677245971
+0.328396677245971
+0.328396677245971
+0.328396677245971
+0.328396677245971
+0.328396677245971
+0.3217240587457371
+0.32147089329617135
+0.32172290545328885
+0.3216666231511005
+0.32146506657652024
+0.3214650638600405
+0.32146506457540086
+0.32147137628810507
+0.32147325713782543
+0.3214732561594899
+0.32147325693278994
+0.3214710324235856
+0.32147089329617135
+0.32147089329617135
+0.32147089329617135
+0.32147089329617135
+0.32147089329617135
+0.328396677245971
+0.32147089329617135
+0.3276940828047671
+0.3276866595164391
+0.32147089329617135
+0.32147089329617135
+0.32147089329617135
+0.3276940789504787
+0.3276908923215033
+0.3276866595164391
+0.3276866595164391
+0.3276866595164391
+0.3276866595164391
+0.3276866595164391
+0.3276866595164391
+0.3276866595164391
+0.3276866595164391
+0.3276866595164391
+0.3276866595164391
+0.3276866595164391
+0.3276866595164391
+0.3276866595164391
+0.3276866595164391
+0.3276866595164391
+0.328396677245971
+0.3276866595164391
+0.3283260926927098
+0.3283260926927098
+0.3283260926927098
+0.3276866595164391
+0.3283260926927098
+0.3283260926927098
+0.3283260926927098
+0.3283260926927098
+0.3283260926927098
+0.3283260926927098
+0.3283260926927098
+0.3283260926927098
+0.3283260926927098
+0.3283260926927098
+0.3283260926927098
+0.3283260926927098
+0.3283260926927098
+0.3283260926927098
+0.3283260926927098
+0.3283260926927098
+0.328396677245971
+0.3283260926927098
+0.3283260926927098
+0.3283896155437397
+0.3283896155437397
+0.3283896155437397
+0.3283896155437397
+0.3283896155437397
+0.3283896155437397
+0.3283896155437397
+0.3283896155437397
+0.3283896155437397
+0.3283896155437397
+0.3283896155437397
+0.3283896155437397
+0.3283896155437397
+0.3283896155437397
+0.3283896155437397
+0.3283896155437397
+0.3283896155437397
+0.3283896155437397
+0.3283896155437397
+0.328396677245971
+0.3283896155437397
+0.3283896155437397
+0.3283959710432775
+0.3283959710432775
+0.3283959710432775
+0.3283959710432775
+0.3283959710432775
+0.3283959710432775
+0.3283959710432775
+0.3283959710432775
+0.3283959710432775
+0.3283959710432775
+0.3283959710432775
+0.3283959710432775
+0.3283959710432775
+0.3283959710432775
+0.3283959710432775
+0.3283959710432775
+0.3283959710432775
+0.3283959710432775
+0.3283959710432775
+0.3283959710432775
+0.3283959710432775
+
+
+
+Root absolute error:
+2-dimensional space:
+ - 1. dimension: classifier.maxIts, min: -1.0, max: 20.0, step: 1.0
+ - 2. dimension: classifier.ridge, min: -10.0, max: 10.0, step: 1.0
+57.53417343934893
+57.534109654178216
+57.53476200803412
+57.535054676930294
+46.3464503870816
+57.537183758323906
+57.53718317097168
+57.537177309449085
+57.537119869899215
+57.53664278947284
+57.54112519130805
+57.58551197068106
+46.30611832379454
+46.42117810072178
+46.0805219829509
+46.08052198296198
+46.08052198307035
+46.08052198416159
+46.080521995071386
+46.08052210416838
+46.08052319512069
+46.08053410220688
+46.080642929340414
+46.25345926135663
+46.08170583680349
+46.20253928465626
+46.20253928466562
+46.2025392847553
+46.20253928566212
+46.202539294730265
+46.202539385404116
+46.20254029212559
+46.20254935753943
+46.20263983081162
+46.10609503893823
+46.20352569400018
+46.470597433803064
+46.23014277698568
+46.23014277699385
+46.23014277706686
+46.23014277780082
+46.23014278513742
+46.230142858496734
+46.230143592078484
+46.2301509261464
+46.23022409052445
+46.2309373221846
+46.39699083988476
+46.35882954076122
+46.227302143623334
+46.47435048758721
+46.24953485570759
+46.47788999271436
+47.46644697208121
+46.22786868821338
+46.22786868822057
+46.22786868828738
+46.22786868895187
+46.227868695598005
+46.22786876205319
+46.22786942659329
+46.22787607024303
+46.22794233068111
+46.22858654606985
+46.40512487946926
+45.95210009590935
+45.95210009592411
+45.952100096071064
+45.9521000975476
+45.95210011231236
+45.95210025996112
+45.952101736445236
+45.95211650134759
+45.952264155698266
+45.95374123261587
+45.96856516168066
+46.25559754595715
+46.14270241497235
+47.55549318721525
+45.96858786870453
+46.12596908894389
+45.966500415102274
+45.966500415121324
+45.96650041530785
+45.96650041717567
+45.96650043585033
+45.96650062259473
+45.96650249005571
+45.96670803465042
+45.98845510000614
+46.14186654807174
+46.14186654808053
+46.14186654815689
+46.14186654892738
+46.14186655663639
+46.141866633720646
+46.14186740454008
+45.96652116578109
+46.141875110984124
+46.141951998357555
+47.43012481933825
+46.10538878158111
+46.104608159041625
+46.10460815904894
+46.10460815912125
+46.10460815984201
+46.10460816704516
+46.10460823907783
+46.10460895939043
+46.104616160832
+46.10468800629391
+46.3715236836981
+46.44034231067523
+46.335748354281414
+47.46853358243142
+46.16489884794117
+45.95645818396623
+46.08212372575723
+45.9564581839791
+46.08212372576983
+45.956458184102864
+46.08212372589019
+45.95645818534243
+46.082123727092245
+45.95645819774664
+46.082123739121826
+45.95645832178462
+46.08212385940745
+45.95645956216558
+46.08212506225433
+45.956471965833664
+46.08213708897472
+45.95659598931729
+46.082257180417194
+45.95783490382163
+46.08343977475743
+45.970092161049855
+46.17546403715239
+46.233938239608236
+47.61810665182823
+47.284107837864525
+46.110369133549504
+47.46596016815111
+47.46041274681335
+46.14958001394998
+46.14958001397255
+46.14958001420083
+46.14958001648339
+46.14958003930893
+46.149580267562406
+46.14958255010475
+46.14960537668234
+46.149833757844696
+46.15212906128876
+47.45998522050658
+47.5923497000969
+46.06266770882328
+47.44403166378317
+57.72152520155097
+46.04276169129122
+46.041968853187136
+46.04196885319467
+46.04196885326805
+46.041968854000864
+46.04196886133527
+46.0419689346641
+46.04196966793874
+46.04197699881445
+46.042050119353924
+46.11198927845969
+46.06543663037398
+46.06451237881179
+46.06451237882016
+46.06451237890445
+46.06451237974662
+46.06451238817486
+46.06451247245725
+46.06451331526808
+46.064521742353705
+46.06460591056097
+47.44966033509391
+46.08065038791354
+46.10281425966731
+46.08022070215413
+46.080220702158954
+46.080220702199796
+46.080220702610035
+46.08022070671757
+46.08022074778581
+46.08022115845398
+46.08022526288121
+46.080266080981616
+58.18763389695587
+48.47660903339845
+46.357155713787634
+46.34625163401334
+46.345037381935555
+46.345037381946455
+46.34503738205572
+46.345037383148316
+46.34503739407943
+46.345037503386365
+46.34503859645648
+46.34504952713247
+46.34515883147338
+46.60708678334006
+47.57173821696378
+47.92843819532078
+47.736510468993664
+46.103803652060016
+54.98405560114437
+55.00664402082225
+55.00328784794894
+55.00081039214509
+45.924244193952575
+45.92424419396821
+45.92424419412861
+45.92424419574088
+45.924244211862444
+45.92424437307537
+45.92424598520586
+45.924262106511385
+45.92442331974801
+45.92603547058543
+45.94215876132878
+55.00048906817237
+54.97681821453182
+55.32988287955013
+54.98817725682954
+48.16200420752914
+46.880385765091724
+46.51213337318792
+55.081267939813316
+56.793338450201325
+46.35735686857938
+48.08109492154383
+46.34013110221997
+46.74795838192347
+46.3401311022354
+46.74795838193509
+46.340131102389314
+46.747958382053625
+46.34013110393999
+46.747958383238924
+46.340131119445964
+46.747958395093846
+46.340131274500926
+46.74795851364566
+46.34013282504595
+46.74795969915004
+46.340148330499
+46.747971554213706
+46.340303384804535
+46.74809010517245
+46.3418539057184
+46.7611342435056
+46.74927564708966
+55.22751228277613
+54.99762767024573
+55.80609882763868
+57.49004738186073
+60.04169492932372
+59.662504008478784
+59.603997775744624
+59.669631730359114
+59.16039246711599
+59.921492381505026
+50.42718650127513
+58.7423662550702
+58.75805012192219
+58.74889233085296
+58.76389569046829
+58.77693668441246
+60.528337225735406
+48.81984236383457
+48.63904006427923
+48.63904006429543
+48.63904006445761
+48.63904006608487
+48.63904008234404
+48.639040244941626
+48.63904187092375
+48.63905813073305
+48.6392207290021
+48.6408467277216
+48.6571082796312
+63.709971258867995
+59.02028023345201
+62.78418201269783
+65.65757068681363
+65.72578828994955
+65.73627553689593
+65.7592305797218
+65.73515812973432
+65.73607426107762
+66.18640258345744
+67.07800399697318
+67.07969296791381
+67.09780692617083
+67.09850960493718
+68.33542457576365
+67.65849329220879
+62.93941853322396
+62.3854981040957
+62.33227006410118
+62.32638968747043
+62.326389687475725
+62.32638968752858
+62.32638968805778
+62.32638969334676
+62.32638974623774
+62.32639027515849
+62.32639556435572
+62.326448456638715
+62.32697741070334
+85.65642887497269
+85.53230838997248
+84.6238480940005
+83.82548801893313
+83.82451147134452
+83.8245733841153
+83.82905981405754
+85.03017108510758
+85.27388049844473
+85.2742455504931
+85.27423909171169
+85.27848162328044
+85.312699865344
+85.312064228369
+85.31275041665378
+85.31275121830278
+85.34073095264498
+85.49051741689574
+85.49043086090445
+85.49113716122571
+85.491150264986
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+97.96812240726905
+97.8910310518726
+97.96777121843914
+97.95063270697175
+97.8892567587525
+97.88925593155783
+97.88925614939205
+97.89117812764017
+97.89175086477508
+97.89175056686236
+97.89175080233977
+97.89107341753095
+97.8910310518726
+97.8910310518726
+97.8910310518726
+97.8910310518726
+97.8910310518726
+100.0
+97.8910310518726
+99.78605312115334
+99.78379265725637
+97.8910310518726
+97.8910310518726
+97.8910310518726
+99.78605194748482
+99.78508158779601
+99.78379265725637
+99.78379265725637
+99.78379265725637
+99.78379265725637
+99.78379265725637
+99.78379265725637
+99.78379265725637
+99.78379265725637
+99.78379265725637
+99.78379265725637
+99.78379265725637
+99.78379265725637
+99.78379265725637
+99.78379265725637
+99.78379265725637
+100.0
+99.78379265725637
+99.97850631320235
+99.97850631320235
+99.97850631320235
+99.78379265725637
+99.97850631320235
+99.97850631320235
+99.97850631320235
+99.97850631320235
+99.97850631320235
+99.97850631320235
+99.97850631320235
+99.97850631320235
+99.97850631320235
+99.97850631320235
+99.97850631320235
+99.97850631320235
+99.97850631320235
+99.97850631320235
+99.97850631320235
+99.97850631320235
+100.0
+99.97850631320235
+99.97850631320235
+99.99784964260584
+99.99784964260584
+99.99784964260584
+99.99784964260584
+99.99784964260584
+99.99784964260584
+99.99784964260584
+99.99784964260584
+99.99784964260584
+99.99784964260584
+99.99784964260584
+99.99784964260584
+99.99784964260584
+99.99784964260584
+99.99784964260584
+99.99784964260584
+99.99784964260584
+99.99784964260584
+99.99784964260584
+100.0
+99.99784964260584
+99.99784964260584
+99.99978495437304
+99.99978495437304
+99.99978495437304
+99.99978495437304
+99.99978495437304
+99.99978495437304
+99.99978495437304
+99.99978495437304
+99.99978495437304
+99.99978495437304
+99.99978495437304
+99.99978495437304
+99.99978495437304
+99.99978495437304
+99.99978495437304
+99.99978495437304
+99.99978495437304
+99.99978495437304
+99.99978495437304
+99.99978495437304
+99.99978495437304
+
+
+
+Combined = (1-abs(CC)) + RRSE + RAE:
+2-dimensional space:
+ - 1. dimension: classifier.maxIts, min: -1.0, max: 20.0, step: 1.0
+ - 2. dimension: classifier.ridge, min: -10.0, max: 10.0, step: 1.0
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+
+
+
+Accuracy:
+2-dimensional space:
+ - 1. dimension: classifier.maxIts, min: -1.0, max: 20.0, step: 1.0
+ - 2. dimension: classifier.ridge, min: -10.0, max: 10.0, step: 1.0
+87.6462129801178
+87.6462129801178
+87.64483035146421
+87.6434477228106
+87.6434477228106
+87.63929983684982
+87.63929983684982
+87.63929983684982
+87.63929983684982
+87.63929983684982
+87.63653457954263
+87.63238669358184
+87.63238669358184
+87.63100406492825
+87.62685617896746
+87.62685617896746
+87.62685617896746
+87.62685617896746
+87.62685617896746
+87.62685617896746
+87.62685617896746
+87.62685617896746
+87.62685617896746
+87.62685617896746
+87.62547355031386
+87.62132566435307
+87.62132566435307
+87.62132566435307
+87.62132566435307
+87.62132566435307
+87.62132566435307
+87.62132566435307
+87.62132566435307
+87.62132566435307
+87.62132566435307
+87.61994303569948
+87.61579514973869
+87.61441252108509
+87.61441252108509
+87.61441252108509
+87.61441252108509
+87.61441252108509
+87.61441252108509
+87.61441252108509
+87.61441252108509
+87.61441252108509
+87.61302989243148
+87.6116472637779
+87.6102646351243
+87.6074993778171
+87.6061167491635
+87.60473412050992
+87.60473412050992
+87.60196886320271
+87.60058623454913
+87.60058623454913
+87.60058623454913
+87.60058623454913
+87.60058623454913
+87.60058623454913
+87.60058623454913
+87.60058623454913
+87.59920360589553
+87.59920360589553
+87.59920360589553
+87.59643834858834
+87.59643834858834
+87.59643834858834
+87.59643834858834
+87.59643834858834
+87.59643834858834
+87.59643834858834
+87.59643834858834
+87.59643834858834
+87.59643834858834
+87.59643834858834
+87.59505571993473
+87.59367309128115
+87.59367309128115
+87.59229046262755
+87.59229046262755
+87.59090783397396
+87.59090783397396
+87.59090783397396
+87.59090783397396
+87.59090783397396
+87.59090783397396
+87.59090783397396
+87.59090783397396
+87.59090783397396
+87.58952520532036
+87.58952520532036
+87.58952520532036
+87.58952520532036
+87.58952520532036
+87.58952520532036
+87.58952520532036
+87.58952520532036
+87.58952520532036
+87.58952520532036
+87.58952520532036
+87.58675994801317
+87.58537731935957
+87.58537731935957
+87.58537731935957
+87.58537731935957
+87.58537731935957
+87.58537731935957
+87.58537731935957
+87.58537731935957
+87.58537731935957
+87.58537731935957
+87.58537731935957
+87.58537731935957
+87.58537731935957
+87.58399469070596
+87.58122943339878
+87.58122943339878
+87.58122943339878
+87.58122943339878
+87.58122943339878
+87.58122943339878
+87.58122943339878
+87.58122943339878
+87.58122943339878
+87.58122943339878
+87.58122943339878
+87.58122943339878
+87.58122943339878
+87.58122943339878
+87.58122943339878
+87.58122943339878
+87.58122943339878
+87.58122943339878
+87.58122943339878
+87.57984680474519
+87.57984680474519
+87.57846417609159
+87.57846417609159
+87.57846417609159
+87.57846417609159
+87.57708154743798
+87.5756989187844
+87.5756989187844
+87.5715510328236
+87.5715510328236
+87.5715510328236
+87.5715510328236
+87.5715510328236
+87.5715510328236
+87.5715510328236
+87.5715510328236
+87.57016840417
+87.56878577551642
+87.56740314686282
+87.56463788955563
+87.56187263224844
+87.56187263224844
+87.55772474628765
+87.55634211763405
+87.55495948898044
+87.55495948898044
+87.55495948898044
+87.55495948898044
+87.55495948898044
+87.55495948898044
+87.55495948898044
+87.55495948898044
+87.55495948898044
+87.54389845975167
+87.54251583109809
+87.54113320244448
+87.54113320244448
+87.54113320244448
+87.54113320244448
+87.54113320244448
+87.54113320244448
+87.54113320244448
+87.54113320244448
+87.54113320244448
+87.5383679451373
+87.5356026878301
+87.5356026878301
+87.5328374305229
+87.5328374305229
+87.5328374305229
+87.5328374305229
+87.5328374305229
+87.5328374305229
+87.5328374305229
+87.5328374305229
+87.5328374305229
+87.53007217321571
+87.52592428725492
+87.52039377264055
+87.51901114398694
+87.51624588667976
+87.51624588667976
+87.51624588667976
+87.51624588667976
+87.51624588667976
+87.51624588667976
+87.51624588667976
+87.51624588667976
+87.51624588667976
+87.51624588667976
+87.51209800071896
+87.50380222879738
+87.45679285457511
+87.43881868207836
+87.43881868207836
+87.43881868207836
+87.43743605342478
+87.43467079611757
+87.43328816746399
+87.43328816746399
+87.43328816746399
+87.43328816746399
+87.43328816746399
+87.43328816746399
+87.43328816746399
+87.43328816746399
+87.43328816746399
+87.43328816746399
+87.43328816746399
+87.4291402815032
+87.42775765284959
+87.4249923955424
+87.4236097668888
+87.41531399496724
+87.40978348035284
+87.40563559439205
+87.39595719381688
+87.39457456516328
+87.3918093078561
+87.3890440505489
+87.3876614218953
+87.3876614218953
+87.3876614218953
+87.3876614218953
+87.3876614218953
+87.3876614218953
+87.3876614218953
+87.3876614218953
+87.3876614218953
+87.3876614218953
+87.3876614218953
+87.3876614218953
+87.3876614218953
+87.3876614218953
+87.3876614218953
+87.3876614218953
+87.3876614218953
+87.3876614218953
+87.3876614218953
+87.3876614218953
+87.38627879324171
+87.37106987805215
+87.36277410613057
+87.32959101844426
+87.3212952465227
+87.30885158864032
+87.29502530210436
+87.29364267345076
+87.28949478748997
+87.2784337582612
+87.21483284019578
+87.02679534330669
+87.00052539888837
+86.99776014158117
+86.99499488427398
+86.99361225562039
+86.98531648369881
+86.98255122639162
+86.94245499543733
+86.93830710947654
+86.93830710947654
+86.93830710947654
+86.93830710947654
+86.93830710947654
+86.93830710947654
+86.93830710947654
+86.93830710947654
+86.93830710947654
+86.93830710947654
+86.93830710947654
+86.90374139313663
+86.90097613582944
+86.65072034952853
+86.54287531454801
+86.48618753975057
+86.477891767829
+86.477891767829
+86.4751265105218
+86.47097862456101
+86.46268285263943
+86.45162182341066
+86.45162182341066
+86.4405607941819
+86.4391781655283
+86.00918065425988
+85.91516190581534
+84.38459198628432
+84.04170008019246
+83.991925448663
+83.98501230539502
+83.98501230539502
+83.98501230539502
+83.98501230539502
+83.98501230539502
+83.98501230539502
+83.98501230539502
+83.98501230539502
+83.98501230539502
+83.98362967674142
+82.44199872798164
+82.43508558471366
+82.22907391532782
+82.00785333075243
+82.00785333075243
+82.00647070209882
+82.00094018748445
+81.30133008876476
+81.19210242513066
+81.19210242513066
+81.19210242513066
+81.18795453916987
+81.16444985205874
+81.16444985205874
+81.16444985205874
+81.16444985205874
+81.15200619417637
+81.07734424688218
+81.07734424688218
+81.07596161822858
+81.07596161822858
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+79.29237065508946
+
+
+
+Kappa:
+2-dimensional space:
+ - 1. dimension: classifier.maxIts, min: -1.0, max: 20.0, step: 1.0
+ - 2. dimension: classifier.ridge, min: -10.0, max: 10.0, step: 1.0
+0.5817024608499757
+0.5817024608499757
+0.5816671187685305
+0.5815170083937473
+0.5932987632359238
+0.5812961271020892
+0.5812961271020892
+0.5812961271020892
+0.5812961271020892
+0.5812961271020892
+0.581202457331866
+0.5809584733607313
+0.5917374093790345
+0.5910027910628366
+0.5900201052790287
+0.5900201052790287
+0.5900201052790287
+0.5900201052790287
+0.5900201052790287
+0.5900201052790287
+0.5900201052790287
+0.5900201052790287
+0.5900201052790287
+0.5915548436593603
+0.5899852968934729
+0.5912411207191749
+0.5912411207191749
+0.5912411207191749
+0.5912411207191749
+0.5912411207191749
+0.5912411207191749
+0.5912411207191749
+0.5912411207191749
+0.5912411207191749
+0.5898808829464298
+0.5912063988449554
+0.5914082182274145
+0.5910237794117833
+0.5910237794117833
+0.5910237794117833
+0.5910237794117833
+0.5910237794117833
+0.5910237794117833
+0.5910237794117833
+0.5910237794117833
+0.5910237794117833
+0.5909671842424985
+0.5905601289492329
+0.5912475975945479
+0.5907845599247142
+0.5907498502620258
+0.5904303286499614
+0.5910869941299484
+0.5913670292205526
+0.5901726145546181
+0.5901726145546181
+0.5901726145546181
+0.5901726145546181
+0.5901726145546181
+0.5901726145546181
+0.5901726145546181
+0.5901726145546181
+0.5901378887513777
+0.5901159420482893
+0.5905106234480374
+0.5897169724954326
+0.5897169724954326
+0.5897169724954326
+0.5897169724954326
+0.5897169724954326
+0.5897169724954326
+0.5897169724954326
+0.5897169724954326
+0.5897169724954326
+0.5897169724954326
+0.5897829190638667
+0.5901434398386174
+0.5901306655190666
+0.5913554396933995
+0.5895687725549167
+0.5902275411147088
+0.589490039250108
+0.589490039250108
+0.589490039250108
+0.589490039250108
+0.589490039250108
+0.589490039250108
+0.589490039250108
+0.5895120383129134
+0.5895340350180034
+0.5900265444412542
+0.5900265444412542
+0.5900265444412542
+0.5900265444412542
+0.5900265444412542
+0.5900265444412542
+0.5900265444412542
+0.5894553010304632
+0.5900265444412542
+0.5900265444412542
+0.5904429872571352
+0.5900668246750767
+0.5900101978511458
+0.5900101978511458
+0.5900101978511458
+0.5900101978511458
+0.5900101978511458
+0.5900101978511458
+0.5900101978511458
+0.5900101978511458
+0.5900101978511458
+0.5900321314256978
+0.5898785471026072
+0.59092939181125
+0.5909075541423393
+0.5897560275965418
+0.589466884367036
+0.5887841981331156
+0.589466884367036
+0.5887841981331156
+0.589466884367036
+0.5887841981331156
+0.589466884367036
+0.5887841981331156
+0.589466884367036
+0.5887841981331156
+0.589466884367036
+0.5887841981331156
+0.589466884367036
+0.5887841981331156
+0.589466884367036
+0.5887841981331156
+0.589466884367036
+0.5887841981331156
+0.589466884367036
+0.5887273850213569
+0.5893881934784346
+0.5892434867211828
+0.589639188145144
+0.5905813959081531
+0.5898806305873842
+0.5887461251063857
+0.59009627873672
+0.5898332085091191
+0.5889818543106562
+0.5889818543106562
+0.5889818543106562
+0.5889818543106562
+0.5889818543106562
+0.5889818543106562
+0.5889818543106562
+0.5889818543106562
+0.5889471408700638
+0.5888904051737802
+0.5905010753528283
+0.5904318489440731
+0.5890470781083593
+0.590034532233943
+0.5779190707300906
+0.5887102510026273
+0.5886755643495545
+0.5886755643495545
+0.5886755643495545
+0.5886755643495545
+0.5886755643495545
+0.5886755643495545
+0.5886755643495545
+0.5886755643495545
+0.5886755643495545
+0.5900003559327213
+0.588957560515348
+0.5889448983417698
+0.5889448983417698
+0.5889448983417698
+0.5889448983417698
+0.5889448983417698
+0.5889448983417698
+0.5889448983417698
+0.5889448983417698
+0.5889448983417698
+0.5892707744356912
+0.5895084060217862
+0.5891796329233059
+0.5894611438231536
+0.5894611438231536
+0.5894611438231536
+0.5894611438231536
+0.5894611438231536
+0.5894611438231536
+0.5894611438231536
+0.5894611438231536
+0.5894611438231536
+0.5760023558970979
+0.5920733720279753
+0.5892595392177352
+0.5893125724052515
+0.5892434776141376
+0.5892434776141376
+0.5892434776141376
+0.5892434776141376
+0.5892434776141376
+0.5892434776141376
+0.5892434776141376
+0.5892434776141376
+0.5892434776141376
+0.5894841808395938
+0.5885696925369553
+0.5900904037362378
+0.588066774639128
+0.586365142689736
+0.5725699708220764
+0.5733226400980342
+0.5729819470066254
+0.5726997125926893
+0.585851623886086
+0.585851623886086
+0.585851623886086
+0.585851623886086
+0.585851623886086
+0.585851623886086
+0.585851623886086
+0.585851623886086
+0.585851623886086
+0.585851623886086
+0.5858737338049252
+0.5725351896777188
+0.5723821698195218
+0.5736975089747173
+0.572347127728611
+0.5872316166183599
+0.5867867447227393
+0.5820394040402395
+0.5723021335470284
+0.5725254598460449
+0.5814455453751821
+0.5827673845758817
+0.5813191061798803
+0.5860386845947021
+0.5813191061798803
+0.5860386845947021
+0.5813191061798803
+0.5860386845947021
+0.5813191061798803
+0.5860386845947021
+0.5813191061798803
+0.5860386845947021
+0.5813191061798803
+0.5860386845947021
+0.5813191061798803
+0.5860386845947021
+0.5813191061798803
+0.5860386845947021
+0.5813191061798803
+0.5860386845947021
+0.5812965889954026
+0.5860606946365943
+0.5859822969462327
+0.5706078477528379
+0.5701126754501117
+0.5677212774823193
+0.5683924554406811
+0.5640378703186458
+0.5688653222472805
+0.5687591358394662
+0.5688198707880565
+0.5674938919042987
+0.5761858540869889
+0.5784198396132768
+0.5555118007777804
+0.5564001411440125
+0.5554458229363134
+0.5552877381403277
+0.5549301313251679
+0.5621849008269745
+0.5753325725712158
+0.5750745364619615
+0.5750745364619615
+0.5750745364619615
+0.5750745364619615
+0.5750745364619615
+0.5750745364619615
+0.5750745364619615
+0.5750745364619615
+0.5750745364619615
+0.5750745364619615
+0.5750745364619615
+0.5704524140418704
+0.5494123213827734
+0.5317892087192205
+0.5226086872229172
+0.5189804999299238
+0.5184352942060872
+0.5184075092308743
+0.5183368147161499
+0.5181195915154321
+0.5145749351607637
+0.5103382312765915
+0.5103955642269297
+0.5097088131143476
+0.5096444571578836
+0.5545209447648849
+0.556174735091358
+0.5465659122701408
+0.5429941256148145
+0.542248275970266
+0.5422096461772593
+0.5422096461772593
+0.5422096461772593
+0.5422096461772593
+0.5422096461772593
+0.5422096461772593
+0.5422096461772593
+0.5422096461772593
+0.5422096461772593
+0.5421595226327979
+0.23547633452290162
+0.23406772437472645
+0.22015385790644204
+0.20439395180363742
+0.20427994639455296
+0.20419028965959615
+0.20394568854991735
+0.15322490831362162
+0.1451742242167186
+0.1451742242167186
+0.1451742242167186
+0.14482828460911867
+0.14316033089709707
+0.14316033089709707
+0.14316033089709707
+0.14316033089709707
+0.14230982616033422
+0.13693991719595638
+0.13693991719595638
+0.13684496689346215
+0.13684496689346215
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+
+
+
+Best performance:
+Performance (19, 10): 79.29237065508946 (ACC)
+
+Result of Step 1: -1, -4
+
+=== Initial space - End ===
+
+Center is on border of space.
+
+Final result:-1, -4
+Classifier: weka.classifiers.functions.Logistic -R 1.0E-4 -M -1
+Shutting down thread pool...

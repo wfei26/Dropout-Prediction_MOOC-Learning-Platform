@@ -1,0 +1,18 @@
+*login at loing1 or login2
+ssh login1
+
+*check job status
+qstat -n1u wfei26
+qstat -n1tu wfei26
+
+*cancel job
+qdel 7723532[]
+
+*show average waiting time of job
+showstart 7723538
+
+*show usage of clusters
+rqs
+
+
+

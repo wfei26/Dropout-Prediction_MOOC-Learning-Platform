@@ -1,0 +1,95 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -I 200 -K 14 -S 1 -num-slots 4 -do-not-check-capabilities
+Relation:     EECS738_Train
+Instances:    72326
+Attributes:   51
+              51
+              1
+              2
+              3
+              4
+              5
+              6
+              7
+              8
+              9
+              10
+              11
+              12
+              13
+              14
+              15
+              16
+              17
+              18
+              19
+              20
+              21
+              22
+              23
+              24
+              25
+              26
+              27
+              28
+              29
+              30
+              31
+              32
+              33
+              34
+              35
+              36
+              37
+              38
+              39
+              40
+              41
+              42
+              43
+              44
+              45
+              46
+              47
+              48
+              49
+              50
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Random forest of 200 trees, each constructed while considering 14 random features.
+Out of bag error: 0.1216
+
+
+
+Time taken to build model: 82.95 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       63592               87.9241 %
+Incorrectly Classified Instances      8734               12.0759 %
+Kappa statistic                          0.5944
+Mean absolute error                      0.1892
+Root mean squared error                  0.3047
+Relative absolute error                 57.6194 %
+Root relative squared error             75.2056 %
+Coverage of cases (0.95 level)          98.8192 %
+Mean rel. region size (0.95 level)      81.0531 %
+Total Number of Instances            72326     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.582    0.043    0.779      0.582    0.666      0.604    0.883     0.747     No
+                 0.957    0.418    0.898      0.957    0.926      0.604    0.883     0.957     Yes
+Weighted Avg.    0.879    0.340    0.873      0.879    0.872      0.604    0.883     0.913     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+  8717  6260 |     a = No
+  2474 54875 |     b = Yes
+

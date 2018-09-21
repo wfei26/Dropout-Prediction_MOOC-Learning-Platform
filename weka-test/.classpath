@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/Users/syan/Dropbox/Study/2015Fall/EECS 738/Final Project/cluster/multisearch/multisearch2015.10.15.jar"/>
+	<classpathentry kind="lib" path="/Users/syan/Dropbox/Study/2015Fall/EECS 738/Final Project/cluster/multisearch/RBFNetwork.jar"/>
+	<classpathentry kind="lib" path="/Users/syan/Dropbox/Study/2015Fall/EECS 738/Final Project/cluster/multisearch/weka.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

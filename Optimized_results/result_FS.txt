@@ -1,0 +1,108 @@
+1. Logistic + CfsSubsetEval + BestFirst
+acc = 87.3617
+param: maxIts = 6, ridge = 1.0E-10
+Attributed Selected: 24 31 33 36 37 38 39 40 41 42 45 46 50
+
+2. Logistic + CfsSubsetEval + GreedyStepwise
+acc = 87.2065
+param: maxIts = 10, ridge = 1.0E1
+
+/**************************************************
+3. Logistic + CorrelationAttributeEval + Ranker
+acc = 87.6338
+param: maxIts = -1, ridge = 1.0E-3
+
+4. Logistic + GainRatioAttributeEval + Ranker
+acc = 87.6338
+param: maxIts = -1, ridge = 1.0E-3
+
+5. Logistic + InfoGainAttributeEval + Ranker
+acc = 87.6338
+param: maxIts = -1, ridge = 1.0E-3
+
+6. Logistic + OneRAttributeEval + Ranker
+acc = 87.6338
+param: maxIts = -1, ridge = 1.0E-3
+minimumBucketSize = 6, 10, 15, 20 …
+
+7. Logistic + PrincipalComponents + Ranker
+missing
+
+8. Logistic + ReliefFAttributeEval + Ranker
+acc = 87.6338
+param: maxIts = -1, ridge = 1.0E-3
+
+9. Logistic + SymmetricalUncertAttributeEval + Ranker
+acc = 87.6338
+param: maxIts = -1, ridge = 1.0E-3
+**************************************************/
+
+10. RBFNetwork + CfsSubsetEval + BestFirst
+missing
+
+11. RBFNetwork + CfsSubsetEval + GreedyStepwise
+missing
+
+12. RBFNetwork + CorrelationAttributeEval + Ranker
+acc = 86.7544
+param: maxIts = -1, ridge = 1.0E2, minStdDev = 0.5, numClusters = 200
+
+13. RBFNetwork + GainRatioAttributeEval + Ranker
+acc = 86.7544
+param: maxIts = -1, ridge = 1.0E2, minStdDev = 0.5, numClusters = 200
+
+14. RBFNetwork + InfoGainAttributeEval + Ranker
+acc = 86.7544
+param: maxIts = -1, ridge = 1.0E2, minStdDev = 0.5, numClusters = 200
+
+15. RBFNetwork + OneRAttributeEval + Ranker
+missing
+
+16. RBFNetwork + PrincipalComponents + Ranker
+missing
+
+17. RBFNetwork + ReliefFAttributeEval + Ranker
+missing
+
+18. RBFNetwork + SymmetricalUncertAttributeEval + Ranker
+acc = 86.7544
+param: maxIts = -1, ridge = 1.0E2, minStdDev = 0.5, numClusters = 200
+
+=======================================================================
+AUC:
+0. Logistic + WrapperSubsetEval + BestFirst
+attribute selected (31): 4 5 7 8 9 10 12 13 14 15 16 17 19 20 21 23 24 25 29 30 31 32 33 37 38 40 41 47 48 49 50
+
+1. Logistic + WrapperSubsetEval + GreedyStepwise
+attribute selected
+
+2. RandomForest + WrapperSubsetEval + BestFirst
+attribute selected
+
+3. RandomForest + WrapperSubsetEval + GreedyStepwise
+attribute selected
+
+4. RBFNetwork + WrapperSubsetEval + BestFirst
+attribute selected
+
+5. RBFNetwork + WrapperSubsetEval + GreedyStepwise
+attribute selected
+
+ACC:
+0. Logistic + WrapperSubsetEval + BestFirst
+attribute selected: 3,8,13,15,19,34,37,38,39,40,48,51 : 12
+
+1. Logistic + WrapperSubsetEval + GreedyStepwise
+attribute selected
+
+2. RandomForest + WrapperSubsetEval + BestFirst
+attribute selected
+
+3. RandomForest + WrapperSubsetEval + GreedyStepwise
+attribute selected
+
+4. RBFNetwork + WrapperSubsetEval + BestFirst
+attribute selected
+
+5. RBFNetwork + WrapperSubsetEval + GreedyStepwise
+attribute selected
